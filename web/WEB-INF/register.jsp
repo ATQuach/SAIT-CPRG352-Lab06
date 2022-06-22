@@ -9,7 +9,7 @@
         <h1>Shopping List</h1>
         <form method="post" action="ShoppingList">
             <label>Username:</label>
-            <input type="text" name="username" value="">
+            <input type="text" name="username">
             <input type="hidden" name="action" value="register">
             <input type="submit" value="Register name">
         </form>

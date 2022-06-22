@@ -27,7 +27,7 @@ public class ShoppingListServlet extends HttpServlet {
                 String message = "Successfully logged out.";
                 request.setAttribute("message", message);
                 getServletContext().getRequestDispatcher("/WEB-INF/register.jsp").forward(request, response);
-        return;
+                return;
             }
         }
 

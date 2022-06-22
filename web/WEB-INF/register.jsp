@@ -13,6 +13,6 @@
             <input type="hidden" name="action" value="register">
             <input type="submit" value="Register name">
         </form>
-        ${message}
+        <p>${message}</p>
     </body>
 </html>
